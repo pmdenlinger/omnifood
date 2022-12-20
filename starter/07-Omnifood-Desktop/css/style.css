@@ -22,6 +22,7 @@ Default: 1
 - Accents:
 - Grays: 
 #555
+#333
 
 --- 05 SHADOWS
 
@@ -56,6 +57,13 @@ body {
   margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 1.05;
+  color: #333;
 }
 
 .hero-img {
