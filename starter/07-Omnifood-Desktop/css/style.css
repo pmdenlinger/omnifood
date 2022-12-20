@@ -1,0 +1,65 @@
+/* 
+
+--- 01 TYPOGRAPHY SYSTEM
+
+-- FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-- Font weights:
+Default: 400
+
+-- Line heights:
+Default: 1
+
+-- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+--- 02 COLORS
+
+- Primary: #e67e22;
+- Tints:
+- Shades:
+- Accents:
+- Grays: 
+#555
+
+--- 05 SHADOWS
+
+--- 06 BORDER-RADIUS
+
+--- 07 WHITESPACE
+
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+  /* percentage of browser's font-size setting */
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+
+.test {
+  background-color: red;
+  padding: 100px;
+  /* width: 1000px; */
+  /* max-width: 1000px; */
+
+  max-width: 50rem;
+  color: #fff;
+  font-size: 2rem;
+
+  /* 1rem = 16px --> 800px; */
+}
