@@ -127,3 +127,11 @@ body {
 .margin-right-sm {
   margin-right: 1.6rem;
 }
+
+.delivered-meals {
+  display: flex;
+}
+
+.delivered-imgs {
+  display: flex;
+}
