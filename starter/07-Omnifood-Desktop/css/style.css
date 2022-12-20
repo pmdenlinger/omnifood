@@ -135,3 +135,13 @@ body {
 .delivered-imgs {
   display: flex;
 }
+
+.delivered-imgs img {
+  height: 6.4rem;
+  width: 6.4rem;
+  border-radius: 50%;
+}
+
+.delivered-text {
+  font-size: 1.8rem;
+}
