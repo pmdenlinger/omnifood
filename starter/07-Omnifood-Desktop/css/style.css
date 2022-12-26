@@ -147,6 +147,11 @@ body {
   padding: 9.6rem;
 }
 
+.step-number {
+  font-size: 8.6rem;
+  font-weight: 600;
+  color: #ddd;
+}
 .step-img {
   width: 50%;
 }
