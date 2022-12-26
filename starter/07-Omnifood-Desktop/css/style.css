@@ -145,5 +145,6 @@ body {
   padding: 9.6px 0;
 }
 
-.section-how div {
+.step-img {
+  width: 50%;
 }
