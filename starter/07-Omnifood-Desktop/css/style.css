@@ -143,15 +143,7 @@ body {
 
 .section-how {
   padding: 9.6px 0;
-  background-color: orangered;
 }
 
 .section-how div {
-  padding: 100px;
-  font-size: 50px;
-}
-
-.section-how div div {
-  padding: 100px;
-  font-size: 50px;
 }
