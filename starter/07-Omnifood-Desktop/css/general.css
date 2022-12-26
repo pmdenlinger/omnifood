@@ -78,6 +78,12 @@ body {
 /* GENERAL REUSABLE COMPONENTS */
 /* *************************** */
 
+.grid {
+  display: grid;
+  gap: 9.6rem 0;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .btn:link,
 .btn:visited {
   display: inline-block;
