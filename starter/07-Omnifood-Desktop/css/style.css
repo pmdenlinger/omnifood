@@ -253,6 +253,7 @@ body {
 .tag {
   display: inline-block;
   padding: 0.4rem 0.8rem;
+  margin-left: 2rem;
   font-size: 1.2rem;
   text-transform: uppercase;
   color: #333;
@@ -275,6 +276,7 @@ body {
   font-size: 2rem;
   color: #333;
   font-weight: 600;
+  margin-left: 2rem;
   margin-bottom: 3.2rem;
 }
 
@@ -295,16 +297,12 @@ body {
 .meal-icon {
   height: 2.4rem;
   width: 2.4rem;
+  margin-left: 2rem;
   color: #e67e22;
 }
 
 .meal-img {
   width: 100%;
-}
-
-.all-recipes {
-  text-align: center;
-  font-size: 1.8rem;
 }
 
 .list {
@@ -325,4 +323,10 @@ body {
   width: 3rem;
   height: 3rem;
   color: #e67e22;
+}
+
+.all-recipes {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.8rem;
 }
