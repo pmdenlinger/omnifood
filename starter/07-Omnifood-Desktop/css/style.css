@@ -389,3 +389,11 @@ body {
 .gallery-item img:hover {
   transform: scale(1.1);
 }
+
+/* *************************** */
+/* PRICING SECTION */
+/* *************************** */
+
+.section-pricing {
+  padding: 9.6 rem 0;
+}
