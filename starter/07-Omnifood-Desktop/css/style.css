@@ -447,3 +447,16 @@ body {
   text-align: center;
   margin-top: 4.8rem;
 }
+
+.feature-icon {
+  color: #e67e22;
+  height: 2.4rem;
+  width: 2.4rem;
+  margin-bottom: 3.2rem;
+}
+
+.feature-title {
+}
+
+.feature-text {
+}
