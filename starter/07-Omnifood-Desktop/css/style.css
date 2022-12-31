@@ -490,9 +490,6 @@ body {
   background-color: #e67e22;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
   border-radius: 11px;
-
-  /* temp */
-  height: 50rem;
 }
 
 .cta-text-box {
@@ -536,11 +533,13 @@ body {
   margin-bottom: 1.2rem;
 }
 
-.cta-form input {
+.cta-form input,
+.cta-form select {
   width: 100%;
   padding: 1.2rem;
   font-size: 1.8rem;
   font-family: inherit;
+  color: inherit;
   border: none;
   background-color: #fdf2e9;
   border-radius: 9px;
@@ -551,8 +550,11 @@ body {
   color: #aaa;
 }
 
-.cta-form select {
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.55);
 }
 
-.cta-form button {
-}
+/* *************************** */
+/* FOOTER SECTION */
+/* *************************** */
